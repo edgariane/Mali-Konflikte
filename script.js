@@ -26,5 +26,31 @@ function checkCookie() {
     }
  }
 }
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f5f5f5;
+ color: #333;
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #fff;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+ font-size: 28px;
+ color: #4a4a4a;
+ margin-bottom: 20px;
+}
+
+p {
+ line-height: 1.6;
+ margin-bottom: 20px;
+}
 
 checkCookie();
