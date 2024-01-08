@@ -1,0 +1,1 @@
+document.cookie = "visited=yes";
